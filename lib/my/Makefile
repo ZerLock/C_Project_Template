@@ -19,7 +19,7 @@ all:
 	gcc -c $(SRC)
 	ar rcs $(NAME) $(OBJ)
 	cp $(NAME)	../
-	make clean
+	make fclean
 
 .PHONY: clean
 clean:

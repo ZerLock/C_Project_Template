@@ -32,6 +32,7 @@ clean:
 .PHONY: fclean
 fclean:	clean
 	rm -f $(NAME)
+	rm lib/libmy.a
 
 .PHONY:	re
 re:	fclean all
