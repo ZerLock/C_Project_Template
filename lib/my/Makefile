@@ -12,7 +12,7 @@ OBJ	=	$(SRC:.c=.o)
 
 NAME	=	libmy.a
 
-CFLAGS	+= -Wextra -Wall -Iinclude
+CFLAGS	+= -Wextra -Wall
 
 .PHONY: all
 all:
@@ -24,8 +24,6 @@ all:
 .PHONY: clean
 clean:
 	rm -f $(OBJ)
-	rm -rf *.gcda
-	rm -rf *.gcno
 
 .PHONY: fclean
 fclean:	clean

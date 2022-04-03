@@ -5,8 +5,8 @@
 ** No file there, just an epitech header example
 */
 
-#ifndef MY_H
-    #define MY_H
+#ifndef HEADER_H_
+    #define HEADER_H_
 
     #include <unistd.h>
     #include <stdlib.h>
@@ -18,4 +18,4 @@ void my_putstr(char const *str);
 /* Other functions */
 int my_function(void);
 
-#endif /* MY_H */
+#endif /* !HEADER_H_ */

@@ -5,7 +5,7 @@
 ** No file there, just an epitech header example
 */
 
-#include "my.h"
+#include "header.h"
 
 int main(void)
 {
