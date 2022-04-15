@@ -29,6 +29,7 @@
 *.dylib
 
 # Executables
+template
 *.exe
 *.out
 *.app
@@ -41,6 +42,10 @@
 *.su
 *.idb
 *.pdb
+
+# Development environment
+.vscode
+.idea
 
 # Kernel Module Compile Results
 *.mod*

@@ -9,8 +9,6 @@
 
 int my_function(void)
 {
-    /* MAIN PROJECT CODE */
-    /* EXAMPLE */
     my_putstr("Hello world!\n");
     return 0;
 }

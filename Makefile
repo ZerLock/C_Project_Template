@@ -18,7 +18,7 @@ NAME	=	template
 
 LIB	=	-Llib -lmy
 
-CFLAGS	+= -Wextra -Wall -Iinclude -g3
+CFLAGS	= -Wextra -Wall -Iinclude -g3
 
 .PHONY: all
 all:	$(NAME)

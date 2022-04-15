@@ -9,6 +9,5 @@
 
 int main(void)
 {
-    /* SANITY CHECK */
     return my_function();
 }

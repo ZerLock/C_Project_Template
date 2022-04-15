@@ -12,7 +12,7 @@ OBJ	=	$(SRC:.c=.o)
 
 NAME	=	libmy.a
 
-CFLAGS	+= -Wextra -Wall
+CFLAGS	= -Wextra -Wall
 
 .PHONY: all
 all:
