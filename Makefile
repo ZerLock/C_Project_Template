@@ -14,7 +14,7 @@ TESTS	=	$(wildcard tests/*.c) \
 
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	templat
+NAME	=	template
 
 LIB	=	-Llib -lmy
 
